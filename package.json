@@ -1,0 +1,31 @@
+{
+  "name": "cli-message-broker",
+  "version": "1.0.0",
+  "description": "A lightweight, database-free message broker using Node.js and Socket.io.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "pub": "node publisher.js",
+    "sub": "node subscriber.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BabarDeveloper/Cli-Message-Broker.git"
+  },
+  "keywords": [
+    "message-broker",
+    "cli",
+    "socketio",
+    "pubsub"
+  ],
+  "author": "Babar Ali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BabarDeveloper/Cli-Message-Broker/issues"
+  },
+  "homepage": "https://github.com/BabarDeveloper/Cli-Message-Broker#readme",
+  "dependencies": {
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3"
+  }
+}
